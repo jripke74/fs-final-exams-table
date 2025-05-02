@@ -34,3 +34,40 @@ Example Code
 </table>
 Inside your table element, nest a caption element with the text Calculus Final Exam Grades.
 
+Step 5
+For the first section of the table, you will want to group the header content which represents the column labels for the student's first name, last name, and final exam grade.
+
+The table head element, thead, is used to group the header content in a table.
+
+Here is an example using the thead element:
+
+Example Code
+<table>
+  <thead>
+    <!-- header content goes here -->
+  </thead>
+</table>
+Below your caption element, add a table head element.
+
+Step 6
+The table head element consists of a table row element, tr, which contains the table header cell elements, th.
+
+Here is an example using the tr and th elements for a sports table:
+
+Example Code
+<table>
+  <caption>Football Scores</caption>
+  <thead>
+    <tr>
+      <th>Team</th>
+      <th>Wins</th>
+      <th>Losses</th>
+    </tr>
+  </thead>
+</table>
+Inside your thead element, add a tr element.
+
+Inside your tr element, add three th elements.
+
+The first th element should contain the text Last Name. The second th element should contain the text First Name. The third th element should contain the text Grade.
+
